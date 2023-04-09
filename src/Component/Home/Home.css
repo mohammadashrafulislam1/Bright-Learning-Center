@@ -1,10 +1,41 @@
 
 .banner{
-   background-image: url('../../../images/banner.jpg');
+   background-image: url('https://res.cloudinary.com/cross-border-education-technologies-pte-ltd/image/upload/q_auto/f_auto/c_scale,w_auto/v1671372706/h6wu8vg26spl9tqfyk82');
    height: 600px;
    background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 50px;
 }
 .header-title{
    font-family: poppins;
-
+   font-weight: 500;
+    font-size: 48px;
+    line-height: 66px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.header-des{
+   font-size: 24px;
+   line-height: 160%;
+    color: #d7defa;
+   font-weight: 500;
+}
+.header-btn{
+   background: #cf278d;
+   color: #fff;
+   border: 0;
+   box-shadow: 0 6px 20px rgba(15,29,95,.4);
+   font-size: 16px;
+   line-height: 27px;
+   font-weight: 500;
+   border-radius: 15px;
+   padding: 16px 28px;
+}
+.right-side img{
+   width: 500px;
+   background-image: url('../../../images/backgrounofimage.png');
+   background-size: contain;
+   background-repeat: no-repeat;
 }
