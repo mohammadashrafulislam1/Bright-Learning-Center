@@ -1,0 +1,10 @@
+
+.banner{
+   background-image: url('../../../images/banner.jpg');
+   height: 600px;
+   background-size: cover;
+}
+.header-title{
+   font-family: poppins;
+
+}
